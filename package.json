@@ -1,0 +1,32 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js Curso avançado de JavaScript",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "cls && echo 'Hello Script'",
+    "dev": "nodemon fundamentos/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabio-1984/Aulas_de_Node.JS.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "javascript"
+  ],
+  "author": "FabioNavarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabio-1984/Aulas_de_Node.JS/issues"
+  },
+  "homepage": "https://github.com/Fabio-1984/Aulas_de_Node.JS#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
